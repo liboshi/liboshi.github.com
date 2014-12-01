@@ -20,6 +20,7 @@
 
         <section id="downloads">
           <a href="https://github.com/liboshi" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+          <a href="https://www.liboshi.name/liboshi" class="btn btn-github"><span class="icon"></span>My Blog</a>
         </section>
       </div>
     </header>
@@ -30,18 +31,6 @@
 <a id="skills" class="anchor" href="#skills" aria-hidden="true"><span class="octicon octicon-link"></span></a>Skills:</h3>
 
 <hr>
-
----
-layout: default
-title: My Blog
----
-<h2>{{ page.title }}</h2>
-<p>Latest Article</p>
-<ul>
-{% for post in site.posts %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
 
 <ul>
 <li>Platform: Linux, MacOS Windows</li>
