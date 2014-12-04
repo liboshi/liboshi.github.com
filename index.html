@@ -4,31 +4,31 @@ title: Boush Home Page
 ---
 
 <div class="row clearfix">
-        <div class="col-md-12 column liboshi-is">
-                <img src="/images/liboshi_logo_red_icon.png"/>
-                <p>
-                        This is Boush Li.
-                </p>
+    <div class="col-md-12 column liboshi-is">
+        <img src="/images/liboshi_logo_red_icon.png"/>
+        <p>
+        This is Boush Li.
+        </p>
 
-                <div class="liboshi-is-get">
-                        <a href="https://github.com/liboshi" class="btn btn-lg btn-default" role="button">Find on GitHub</a>
-                </div>
+        <div class="liboshi-is-get">
+            <a href="https://github.com/liboshi" class="btn btn-lg btn-default" role="button">Find on GitHub</a>
         </div>
+    </div>
 
-        <div class="col-md-12">
-                <div id="home">
-                        <div>
-                                <h2>Latest News</h2>
-                                <ul class="posts">
-                                        {% for post in site.posts %}
-                                        <li>
-                                        <p>{{ post.date | date_to_string }}</p>
-                                        <a href="{{ post.url }}">{{ post.title }}</a>
-                                        </li>
-                                        {% endfor %}
-                                </ul>
-                        </div>
-                </div>
+    <div class="col-md-12">
+        <div id="home">
+            <div>
+                <h2>Latest News</h2>
+                <ul class="posts">
+                    {% for post in site.posts %}
+                    <li>
+                    <p>{{ post.date | date_to_string }}</p>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
+    </div>
 
 </div>
