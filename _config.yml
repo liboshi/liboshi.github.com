@@ -1,0 +1,7 @@
+name: liboshi
+markdown: kramdown
+kramdown:
+  input: GFM
+pygments: true
+exclude:
+- README.md
