@@ -1,7 +1,7 @@
-—
+---
 layout: default
 title: Markdown Syntax Forked from [图灵社区](http://www.ituring.com.cn/article/504)
-—
+---
 
 Markdown: Syntax
 ================
@@ -25,7 +25,6 @@ Markdown: Syntax
 *   [其它](#misc)
     *   [转义字符](#backslash)
     *   [自动链接](#autolink)
-*   [感谢](#acknowledgement)
 
 **注意：**这份文档是用 Markdown 写的，你可以看看附件中的原始文档 。
 
