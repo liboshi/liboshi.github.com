@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Markdown Syntax Forked from [图灵社区](http://www.ituring.com.cn/article/504)
+title: Markdown Syntax
 ---
 
 Markdown: Syntax
 ================
+
+Forked from [图灵社区](http://www.ituring.com.cn/article/504)
 
 *   [概述](#overview)
     *   [哲学](#philosophy)
