@@ -28,7 +28,7 @@ Singleton Usage Scenario
 
 示例：
 
-- Python，单例模式的实现：
+Python，单例模式的实现：
 
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
