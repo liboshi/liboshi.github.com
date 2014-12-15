@@ -22,10 +22,12 @@ Singleton Usage Scenario
 - HttpApplication也是典型的单例模式的应用。
 
 单例模式应用的厂家那个一般发生在以下条件下：
+
 - 资源共享的情况下，避免由于资源操作时导致的性能或损耗等。如上述中的日志文件，应用配置。
 - 控制资源的情况下，方便资源之间的互相通信。如线程池等。
 
 示例：
+
 - Python，单例模式的实现：
     #!/usr/bin/env python
     # -*- coding: utf-8 -*-
