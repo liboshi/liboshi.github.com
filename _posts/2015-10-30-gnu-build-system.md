@@ -23,24 +23,24 @@ It can be difficult to make a software program portable: the C compiler differs 
 
 <h2 id="sample">Sample</h2>
 
-###Working tree
-    * source in src/
-    * documentation in doc/
-    * man page in man/
-    * scripts in scripts/
-    * examples in examples/
+### Working tree
+* source in src/
+* documentation in doc/
+* man page in man/
+* scripts in scripts/
+* examples in examples/
 
-###Cleaning up
+### Cleaning up
 
     Move away every possible Makefile you have in the package.
 
-###Generating configure.ac
+### Generating configure.ac
     
     $ autoscan
     $ mv configure.scan configure.ac
     
 
-###Adjusting things
+### Adjusting things
     
     $ vim configure.ac
 
@@ -49,12 +49,12 @@ It can be difficult to make a software program portable: the C compiler differs 
     AC_INIT([hellworld], [1.0.0], [bugzilla.com])
     
 
-###Generating a first `configure` script
+### Generating a first `configure` script
     
     $ autoconf
     
 
-###Generating a suitable `Makefile`
+### Generating a suitable `Makefile`
     
     $ vim Makefile.am
 
@@ -96,7 +96,7 @@ It can be difficult to make a software program portable: the C compiler differs 
     example_DATA = sample1.dat sample2.dat [...]
     
 
-###Integrating the checking `autoconf` part and the building `automake` part
+### Integrating the checking `autoconf` part and the building `automake` part
     
     $ vim configure.ac
 
@@ -107,7 +107,7 @@ It can be difficult to make a software program portable: the C compiler differs 
     AC_OUTPUT(Makefile src/Makefile doc/Makefile examples/Makefile man/Makefile scripts/Makefile)
     
 
-###Making tools output the configure script and Makefile templates
+### Making tools output the configure script and Makefile templates
     
     $ aclocal
     This generate a file `aclocal.m4` that cantains macros for automake things,
@@ -125,7 +125,7 @@ It can be difficult to make a software program portable: the C compiler differs 
 
 <h2 id="Build">Build</h2>
 
-###How to build after autoconf
+### How to build after autoconf
     
     $ ./configure
     $ make
