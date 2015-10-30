@@ -8,6 +8,7 @@ GNU Build Sytem
 
 *   [Overview](#overview)
 *   [Sample](#sample)
+*   [Build](#build)
 
 **Notice:** This guide is written with Markdown.
 
@@ -123,7 +124,7 @@ It can be difficult to make a software program portable: the C compiler differs 
     $ autoconf
     
 
-<h2 id="Build">Build</h2>
+<h2 id="build">Build</h2>
 
 ### How to build after autoconf
     
