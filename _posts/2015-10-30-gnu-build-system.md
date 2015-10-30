@@ -32,9 +32,10 @@ It can be difficult to make a software program portable: the C compiler differs 
 
 * Cleaning up
 
-Move away every possible Makefile you have in the package.
+    Move away every possible Makefile you have in the package.
 
 * Installing auto
 
 * Generating configure.ac
+
     $ autoscan
