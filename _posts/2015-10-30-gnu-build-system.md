@@ -3,6 +3,9 @@ layout: default
 title: GNU Build System
 ---
 
+GNU Build Sytem
+=================
+
 *   [Overview](#overview)
 *   [Sample](#sample)
 
