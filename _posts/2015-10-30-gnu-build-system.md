@@ -24,11 +24,11 @@ It can be difficult to make a software program portable: the C compiler differs 
 <h2 id="sample">Sample</h2>
 
 * Working tree
-    ** source in src/
-    ** documentation in doc/
-    ** man page in man/
-    ** scripts in scripts/
-    ** examples in examples/
+    * source in src/
+    * documentation in doc/
+    * man page in man/
+    * scripts in scripts/
+    * examples in examples/
 
 * Cleaning up
 
