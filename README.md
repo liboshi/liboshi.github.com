@@ -1,3 +1,2 @@
-liboshi.github.com
-==================
-This is a personal page.
+
+#### This is a personal page.
